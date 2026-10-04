@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Julien Garde</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="thème/stylefinal.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">À propos</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#section-cv">Compétences</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#divers">Divers</a></li>
+            <li><a href="#contact">Contact & CV</a></li>
+        </ul>
+    </nav>
+
+   <header id="accueil">
+        <div class="container-header">
+            <div class="header-text">
+                <h1>Julien GARDE</h1>
+                <div class="ligne-deco"></div>
+                <h2>Étudiant en BUT Réseaux & Télécommunications</h2>
+                
+                <address>
+                    <a href="https://www.linkedin.com/in/ton-profil" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </address>
+            </div>
+
+            <div class="header-photo">
+                <img src="images/photo-julien-acceuil.png" alt="Photo de Julien Garde">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="apropos">
+            <h2>À propos de moi</h2>
+            <article>
+                <h3>Mon Profil</h3>
+                <p>
+                   Je m'appelle Julien Garde, j'ai 18 ans et je viens d'Hourtin, près de Bordeaux. Intéressé par l'informatique et la manière dont les données se transmettent, j'ai orienté mes études vers un BUT Réseaux & Télécommunications à l'IUT de Clermont Auvergne.
+                </p>
+                <p>
+                    Ce cursus me permet de concrétiser mon intérêt pour la technologie, mais il renforce aussi ce qui est pour moi très important : le travail d'équipe. Que ce soit dans le sport ou en projet universitaire, j'ai toujours aimé la dynamique de groupe et je sais m'adapter rapidement à de nouveaux environnements.
+                </p>
+                <p>
+                    Mon objectif est désormais d'allier théorie et pratique. Je recherche une entreprise pour m'accueillir en stage pour une durée de 10 semaines, à compter d'avril 2027.
+                </p>
+            </article>
+        </section>
+
+        <section id="formation">
+            <h2>Formation</h2>
+            
+            <article>
+                <img src="images/Logo_UCA-Institut-de-technologie_carre.png" alt="Logo UCA" class="company-logo">
+                
+                <time>2025 - 2026</time>
+                <h3>BUT Réseaux & Télécommunications</h3>
+                <p>IUT de Clermont-Ferrand (63)</p>
+                <p>Apprentissage des protocoles réseaux, téléphonie IP et cybersécurité.</p>
+
+                <div class="formation-actions">
+                    <a href="#modal-choix" class="btn-small">
+                        <i class="fas fa-question-circle"></i> Voir plus 
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <img src="images/logo-lyc-e-odilon-redon-50339.png" alt="Logo Lycée" class="company-logo">
+
+                <time>2022 - 2025</time>
+                <h3>Baccalauréat Général</h3>
+                <p>Lycée Odilon Redon à Pauillac (33)</p>
+                <p>Spécialités Mathématiques & Informatique - Mention Assez Bien.</p>
+            </article>
+        </section>
+
+        <section id="section-cv">
+            <h2>Mes Compétences</h2>
+            
+            <article>
+                <h3>Compétences</h3>
+                
+                <p class="titre-competence">Réseaux</p>
+                <ul>
+                    <li>Configuration d'un point d'accès Wi-Fi : En binôme, paramétrage d'un AP Wi-Fi pour y connecter un PC et les faire communiquer entre eux avec l'activation du routage sur Linux.</li>
+                    <li>Configuration de réseaux et sous-réseaux à l'aide de Cisco Packet Tracer. Création de différents sous-réseaux et communication entre eux.</li>
+                    <li>Analyse de trames (Wireshark) pour comprendre comment se font les échanges entre PC lors d'un ping.</li>
+                    <li>Commutation et VLANs : Configuration de switchs Cisco, création de VLANs et mise en place du routage inter-VLAN.</li>
+                    <li>Services réseaux : Installation et configuration de services essentiels (DHCP, DNS, serveur Web Apache) sur des machines Linux.</li>
+                </ul>
+
+                <p class="titre-competence">Programmation</p>
+                <ul>
+                    <li>Python : Utilisation des fonctions, programmation orientée objet, boucles for et while pour créer des programmes simples.</li>
+                    <li>HTML et CSS : Capacité à programmer dans ces deux langages pour réaliser des sites internet simples et structurés.</li>
+                    <li>Développement Web dynamique : Programmation en PHP pour créer des interfaces interactives, gérer des formulaires et des sessions utilisateurs.</li>
+                    <li>Bases de données (SQL) : Modélisation de données (MCD/MLD), création et administration de bases de données relationnelles (MySQL via phpMyAdmin), et écriture de requêtes SQL.</li>
+                </ul>
+
+                <p class="titre-competence">Télécommunications</p>
+                <ul>
+                    <li>Étude de la fibre optique lors d'un TP. Objectif : comprendre les mesures en photométrie et en réflectométrie sur une fibre optique et savoir faire des calculs de puissance et d’atténuation.</li>
+                    <li>Caractérisation des signaux à l'aide de l'oscilloscope (signaux carrés, sinusoïdaux ou continus).</li>
+                    <li>Étude de la conversion analogique-numérique (CAN) et numérique-analogique (CNA).</li>
+                    <li>Utilisation de l'analyseur de spectre pour l'étude des signaux dans le domaine fréquentiel.</li>
+                </ul>
+
+                <p class="titre-competence">Téléphonie</p>
+                <ul>
+                    <li>Configuration de téléphones IP (messagerie, conférence, groupe) et déploiement de softphones sur ordinateur.</li>
+                    <li>Configuration du serveur téléphonique avec le trunk SIP pour communiquer avec l'extérieur.</li>
+                    <li>Analyse de trafic : Utilisation de Wireshark pour capturer et analyser les trames SIP/RTP lors d'un appel.</li>
+                </ul>
+
+                <p class="titre-competence">Système</p>
+                <ul>
+                    <li>Navigation dans l'arborescence Linux à l'aide des commandes de base.</li>
+                    <li>Écriture de scripts en Bash pour l'automatisation de tâches.</li>
+                    <li>Virtualisation : Déploiement et gestion de machines virtuelles pour simuler des infrastructures réseaux et isoler des services.</li>
+                </ul>
+            </article>
+
+
+            <article>
+                <h3>Qualités</h3>
+                <p>Mes principales qualités sont :</p>
+                <ul>
+                    <li>Travail d'équipe : Capacité à travailler en binôme ou en groupe lors de TP ou projets.</li>
+                    <li>Discrétion : Respect de la confidentialité des données et des informations.</li>
+                    <li>Polyvalence : Capacité d'adaptation rapide face aux différents matériels, logiciels et environnements techniques rencontrés lors des TP.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Langues</h3>
+                <p>Niveau de langue</p>
+                <ul>
+                    <li>Anglais : B1 Compréhension orale et écrite. Capable de lire une documentation informatique et des messages d'erreur. Je peux aussi tenir une discussion.</li>
+                    <li>Anglais : B1 Expression orale et écrite. Je peux rédiger un compte rendu ou envoyer un mail en anglais.</li>
+                    <li>Espagnol : C2 Compréhension orale et écrite. Capable de lire une documentation et de comprendre un interlocuteur natif.</li>
+                    <li>Espagnol : C1 Expression orale et écrite. Je peux rédiger un compte rendu ou envoyer un mail en espagnol.</li>
+                </ul>
+            </article>
+        </section>
+
+       <section id="experience">
+            <h2>Expériences Professionnelles</h2>
+            <article>
+                <img src="images/camping-logo.webp" alt="Logo Camping La Côte d'Argent" class="company-logo">
+                <time>Été 2025</time>
+                <h3>Saisonnier - Camping La Côte d'Argent</h3>
+                <p>Hourtin-Plage (33) - Camping 5 étoiles</p>
+
+                <p><strong>Contexte :</strong> Emploi saisonnier au sein d'une équipe technique dans un camping 5 étoiles à forte affluence.</p>
+                <p><strong>Objectif :</strong> Garantir la propreté et le bon fonctionnement des infrastructures pour assurer une expérience client parfaite.</p>
+                <p><strong>Travail réalisé :</strong> Entretien quotidien des espaces verts et des mobil-homes. Maintenance préventive des équipements et gestion des demandes clients urgentes.</p>
+                <p><strong>Résultats :</strong> Amélioration de la satisfaction client, développement de la polyvalence technique et capacité à travailler efficacement en équipe.</p>
+            </article>
+
+            <article>
+                <img src="images/SVS.jpg" alt="Logo SVS Multimédia" class="company-logo">
+                <time>Janvier 2022</time>
+                <h3>Stage - SVS Multimédia</h3>
+                <p>Lesparre-Médoc (33)</p>
+                <p><strong>Contexte :</strong> Stage d'observation en entreprise dans une boutique spécialisée en maintenance informatique et multimédia.</p>
+                <p><strong>Objectif :</strong> Découvrir le métier de technicien de maintenance et comprendre la gestion de la relation client en magasin.</p>
+                <p><strong>Travail réalisé :</strong> Diagnostic de pannes matérielles sur des unités centrales. Installation et configuration de logiciels. Accueil et conseil technique auprès de la clientèle.</p>
+                <p><strong>Résultats :</strong> Confirmation de mon intérêt pour le matériel informatique (hardware) et acquisition des bases du dépannage technique.</p>
+            </article>
+        </section>
+
+        <section id="projets">
+            <h2>Mes Projets</h2>
+            
+
+            <article>
+                <h3>Réalisation de ce portfolio</h3>
+                <img src="images/acceuil-portfolio.png" alt="Capture accueil portfolio" class="project-img" style="cursor: pointer;">
+                
+                <p><strong>Contexte : </strong>Création de ce portfolio, initiée avec l'aide d'un professeur puis poursuivie par un long travail en autonomie.</p>
+                <p><strong>Objectif : </strong>Disposer d'un portfolio pour afficher de manière plus détaillée les compétences et expériences mises en avant dans le CV.</p>
+                <p><strong>Travail réalisé :</strong> J'ai débuté par la création des différents onglets, puis j'ai programmé le design en CSS. Une fois l'aspect visuel finalisé, j'ai rédigé et intégré le contenu des différentes sections.</p>
+                <p><strong>Résultats :</strong> Obtention d'un portfolio fonctionnel regroupant toutes les informations sur mon parcours, mon expérience professionnelle et les projets réalisés.</p>
+            </article>
+
+            <article>
+                <h3>Création d'une plateforme web</h3>
+                
+                <a href="#modal-sae23-img" title="Cliquez pour agrandir">
+                    <img src="images/Acceuil-SAE23.png" alt="Plateforme SAE" class="project-img" style="cursor: pointer; object-position: center;">
+                </a>
+                
+                <p><strong>Contexte :</strong> Développement d'une plateforme web pour suivre et valider les compétences en cybersécurité. Il a été réalisé en alternant travail autonome et séances d’accompagnement avec les professeurs.</p>
+                <p><strong>Objectif :</strong> Créer un outil intégrant des interfaces distinctes pour les étudiants, les formateurs et les administrateurs.</p>
+                <p><strong>Travail réalisé :</strong> J'ai commencé par la conception de la base de données sur phpMyAdmin, puis j'ai réalisé la programmation complète de l'application en PHP, SQL et CSS.</p>
+                <p><strong>Résultats :</strong> Déploiement d'une plateforme fonctionnelle et sécurisée permettant de valider les compétences. L'administrateur peut quant à lui accepter ou refuser les nouveaux inscrits, mais il peut aussi réinitialiser les mots de passe si un utilisateur les perd. (Cliquez sur l'image pour l'agrandir).</p>
+                
+                <div class="formation-actions" style="margin-top: 1.5rem;">
+                    <a href="#modal-sae23-gallery" class="btn-small">
+                        <i class="fas fa-images"></i> Voir les captures d'écran
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <h3>Analyse de données en Python</h3>
+                
+                <a href="#modal-sae15-img" title="Cliquez pour agrandir">
+                    <img src="images/sae15.png" alt="Script de Traitement de Données" class="project-img" style="cursor: pointer; object-position: center;">
+                </a>
+                
+                <p><strong>Contexte :</strong> Ce projet universitaire (SAE 15) consistait à exploiter et analyser les données brutes de notre emploi du temps à partir de fichiers ICS et CSV. Il a été réalisé en alternant travail autonome et séances d’accompagnement avec les professeurs.</p>
+                <p><strong>Objectif :</strong> Extraire, nettoyer et analyser le volume horaire des différentes matières selon le type de cours (CM, TD, TP) à l'aide de Python et Pandas.</p>
+                <p><strong>Travail réalisé :</strong> Création d'un script de conversion du calendrier, extraction des durées, application de coefficients correcteurs et génération d'un tableau croisé dynamique.</p>
+                <p><strong>Résultats :</strong> Automatisation réussie de l'analyse de l'emploi du temps, offrant une vision claire de la répartition de la charge de travail en première année. (Cliquez sur l'image pour l'agrandir).</p>
+
+                <div class="formation-actions" style="margin-top: 1.5rem;">
+                    <a href="#modal-sae15-code" class="btn-small">
+                    <i class="fas fa-code"></i> Voir le script Python
+                    </a>
+                </div>
+            </article>
+            
+            <article>
+                <a href="#modal-morpion-img" title="Cliquez pour agrandir">
+                    <img src="images/Morpion-photo.png" alt="Capture du jeu Morpion" class="project-img" style="cursor: pointer;">
+                </a>
+                
+                <h3>Jeu du Morpion</h3>
+                
+                <p><strong>Contexte :</strong> Projet de groupe (3-4 personnes) en terminale NSI : programme à compléter avec utilisation de variables.</p>
+                <p><strong>Objectif :</strong> Créer un jeu fonctionnel en ligne de commande, jouable à deux joueurs dans la console.</p>
+                <p><strong>Travail réalisé :</strong> Programmation de la logique de jeu (boucles, conditions de victoire) et gestion des erreurs de saisie.</p>
+                <p><strong>Résultats :</strong> Jeu complet avec détection automatique des gagnants et gestion des matchs nuls (Cliquez sur l'image pour voir).</p>
+
+                <div class="formation-actions" style="margin-top: 1.5rem;">
+                    <a href="#modal-morpion" class="btn-small">
+                    <i class="fas fa-code"></i> Voir le programme
+                    </a>
+                </div>
+            </article>
+        </section>
+
+        <section id="divers">
+            <h2>Divers & Passions</h2>
+
+            <article>
+                <img src="images/logo-club.jpg" alt="Logo Castelnau Médoc Basket Club" class="company-logo">
+
+                <h3><i class="fas fa-basketball-ball"></i> Basketball</h3>
+                <p><strong>Contexte :</strong> Je pratique le basket depuis l'âge de 4 ans au club de Castelnau-Médoc (33). Je jouais avec les U21 de mon club alors que je n'avais que 16 ans.</p>
+                <p><strong>Objectif :</strong> Développer la cohésion d'équipe, améliorer ma vision de jeu tactique et atteindre les phases finales.</p>
+                <p><strong>Travail réalisé :</strong> Trois entraînements par semaine pour développer le physique et le tir (shooting).</p>
+                <p><strong>Résultats :</strong> Acquisition d'un fort esprit d'équipe et de leadership. Champion de Gironde 2023-2024 en U21 contre Le Haillan.</p>
+                <div class="formation-actions" style="margin-top: 1.5rem;">
+                    <a href="#modal-basket" class="btn-small">
+                    <i class="fas fa-image"></i> Voir photo champion 2023-2024
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <img src="images/club-tri.png" alt="Logo Puissance 3 Cournon" class="company-logo">
+
+                <h3><i class="fas fa-running"></i> Triathlon</h3>
+                <p><strong>Contexte :</strong> Pratique d'une discipline combinant natation, cyclisme et course à pied, exigeant une gestion rigoureuse de l'effort.</p>
+                <p><strong>Objectif :</strong> Terminer un triathlon distance M (Olympique) en moins de 2h35 (1500 m de natation, 40 km de vélo et 10 km de course à pied).</p>
+                <p><strong>Travail réalisé :</strong> 4 à 5 entraînements par semaine : 2 séances de course à pied, 2 de natation et 1 sortie vélo. Travail spécifique sur l'enchaînement des disciplines.</p>
+                <p><strong>Résultats :</strong> J'ai terminé un triathlon de distance M en 2 h 30, avec la natation en 25 min 10 s, le vélo en 1 h 11 min et la course à pied en 47 min 27 s pour mon premier triathlon sur cette distance.</p>
+                <div class="formation-actions" style="margin-top: 1.5rem;">
+                    <a href="#modal-triathlon" class="btn-small">
+                    <i class="fas fa-stopwatch"></i> Voir mes résultats détaillés
+                    </a>
+                </div>
+            </article>
+
+            <article>
+                <h3><i class="fas fa-water"></i> Surf</h3>
+                <p><strong>Contexte :</strong>Pratique régulière des sports de glisse sur la côte atlantique, principalement à Hourtin-Plage et à Carcans. Passionné par l’océan et les sports de glisse en général.</p>
+                <p><strong>Objectif :</strong> Améliorer ma lecture des vagues et des courants, perfectionner ma technique (take-off, bottom turn) sur des vagues plus exigeantes, et développer mon endurance à la rame.</p>
+                <p><strong>Travail réalisé :</strong> Sessions le week-end et pendant les vacances. Analyse des conditions météo (houle, vent, marées) avant chaque mise à l'eau pour trouver le meilleur spot.</p>
+<p><strong>Résultats :</strong> Cette discipline m'a appris la patience (savoir attendre la bonne vague), la gestion du stress en situation de déséquilibre ou d'imprévu, et une forte persévérance. </p>            </article>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact & CV</h2>
+            
+            <address style="margin-bottom: 3rem; text-align: center;">
+                <a href="mailto:julien.garde@etu.uca.fr"><i class="fas fa-envelope"></i> julien.garde@etu.uca.fr</a>
+            </address>
+
+            <!-- Début de l'intégration du CV en HTML/CSS -->
+            <div class="cv-container">
+                
+                <!-- Colonne de gauche (Verte) -->
+                <aside class="cv-sidebar">
+                    
+                    <!-- Ajout de la photo -->
+                    <div class="cv-photo-container">
+                        <img src="images/photo-julien-acceuil.png" alt="Photo de Julien Garde" class="cv-photo">
+                    </div>
+
+                    <div class="cv-section">
+                        <h3>Contact</h3>
+                        <p><strong>Email</strong><br>julien.garde@etu.uca.fr</p>
+                        <p><strong>Adresse</strong><br>44 rue des meuniers<br>Clermont-Ferrand 63100</p>
+                        <p>Permis B</p>
+                        <p><strong>Lien portfolio:</strong><br><a href="https://jugarde.github.io/" style="text-decoration: underline; padding: 0; box-shadow: none; background: none;">https://jugarde.github.io/</a></p>
+                    </div>
+
+                    <div class="cv-section">
+                        <h3>Compétences</h3>
+                        <ul>
+                            <li>Réseau: Installation, configuration (switch, routeur)</li>
+                            <li>Maitrise des protocoles (TCP/IP, DNS, DHCP)</li>
+                            <li>Maitrise des différents environnements (Linux, Windows)</li>
+                            <li>Active Directory/ Windows Server</li>
+                            <li>Téléphonie: Installation téléphone ip</li>
+                        </ul>
+                    </div>
+
+                    <div class="cv-section">
+                        <h3>Qualités</h3>
+                        <ul>
+                            <li>Travail d'équipe</li>
+                            <li>Rigueur</li>
+                            <li>Polyvalence</li>
+                            <li>Autonomie</li>
+                        </ul>
+                    </div>
+
+                    <div class="cv-section">
+                        <h3>Langues</h3>
+                        <ul>
+                            <li>Anglais B1+</li>
+                            <li>Espagnol C1+</li>
+                        </ul>
+                    </div>
+
+                    <div class="cv-section">
+                        <h3>Autres</h3>
+                        <ul>
+                            <li>Basket-Ball depuis 2011</li>
+                            <li>Triathlon depuis 2025</li>
+                            <li>Surf / Bodyboard</li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <!-- Colonne de droite (Blanche) -->
+                <div class="cv-main">
+                    
+                    <!-- Titres déplacés à droite -->
+                    <div class="cv-header-right">
+                        <h1 class="cv-name">JULIEN GARDE</h1>
+                        <h2 class="cv-subtitle">2ème année de BUT Réseaux<br>et Télécommunications</h2>
+                    </div>
+
+                    <div class="cv-section-main">
+                        <h3 class="cv-title-main">Formations</h3>
+                        
+                        <div class="cv-item">
+                            <h4>BUT réseaux et Télécommunications à Clermont (63)</h4>
+                            <span class="cv-date">2025-2026</span>
+                            <ul>
+                                <li>1re année validé</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="cv-item">
+                            <h4>Lycée Odilon Redon à Pauillac (33)</h4>
+                            <span class="cv-date">2022-2025</span>
+                            <p>Baccalauréat général Maths et Informatique - Mention assez bien</p>
+                        </div>
+                    </div>
+
+                    <div class="cv-section-main">
+                        <h3 class="cv-title-main">Expériences professionnelles</h3>
+                        
+                        <div class="cv-timeline">
+                            <div class="cv-item">
+                                <div class="timeline-dot"></div>
+                                <span class="cv-date-side">2025</span>
+                                <h4>Saisonnier dans un camping 5 étoiles Hourtin-plage (33)</h4>
+                                <p class="cv-company">Camping La côte d'Argent</p>
+                                <p class="cv-duration">Du 01/07/2025 au 25/08/2025</p>
+                                <ul>
+                                    <li>Entretien extérieur</li>
+                                    <li>Entretien mobil home</li>
+                                    <li>Accueil de clients</li>
+                                    <li>Entretien de l'hôtel</li>
+                                </ul>
+                            </div>
+
+                            <div class="cv-item">
+                                <div class="timeline-dot"></div>
+                                <span class="cv-date-side">2022</span>
+                                <h4>Stage d'observation SVS Multimédia à Lesparre-Médoc (33)</h4>
+                                <p class="cv-duration">Du 25/01/2022 au 29/01/2022</p>
+                                <ul>
+                                    <li>Découverte du monde du travail</li>
+                                    <li>Contact client</li>
+                                    <li>Analyse technique d'ordinateur</li>
+                                    <li>Réparations diverses</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin de l'intégration du CV -->
+                
+            <div class="cv-download-area">
+                <a href="R&T-BUT2-GARDE-Julien-CV.pdf" class="btn-download" download="CV Julien Garde">
+                    <i class="fa-solid fa-file-arrow-down"></i> Télécharger le CV (PDF)
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Julien Garde.</p>
+    </footer>
+
+    <div id="modal-choix" class="modal-overlay">
+        <div class="modal-card">
+            <a href="#formation" class="close-btn">&times;</a>
+            <h3>Pourquoi ce choix ?</h3>
+            <div class="modal-text">
+                <p><strong>Pourquoi cette formation ?</strong></p>
+                <p>J'ai choisi le BUT R&T car je suis passionné par la manière dont les données transitent à travers le monde. Comprendre l'infrastructure invisible qui relie les gens (fibre, wifi, réseaux locaux) est ce qui m'intéresse au quotidien.</p>
+                
+                <p><strong> Contenu de la formation :</strong></p>
+                <p>Cette formation comporte 3 compétences communes :
+                Administrer les réseaux et l’Internet, connecter les entreprises et les usagers, créer des outils et applications informatiques pour les R&T.
+                Le parcours Cybersécurité est proposé à partir de la 2ème année. Il apporte les deux compétences suivantes :
+                Administrer un système d’information sécurisé, surveiller un système d’information sécurisé. (site de l'UCA)</p>
+                
+                <p><strong>Objectif Professionnel :</strong></p>
+                <p>Mon but est de me spécialiser dans l'administration réseaux pour garantir des échanges sûrs et rapides en entreprise.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal-basket" class="modal-overlay">
+        <div class="modal-card" style="text-align: center;"> 
+            <a href="#divers" class="close-btn">&times;</a>
+            <h3>Champions de Gironde U21</h3>
+            <img src="images/Photo-d'équipe.jpeg" alt="Équipe championne 2023-2024" class="modal-image-full">
+        </div>
+    </div>
+
+    <div id="modal-triathlon" class="modal-overlay">
+        <div class="modal-card" style="text-align: center;"> 
+            <a href="#divers" class="close-btn">&times;</a>
+            <h3>Résultats du Triathlon M</h3>
+            <img src="images/resultats-tri.jpg" alt="Résultats détaillés du triathlon" class="modal-image-full">
+        </div>
+    </div>
+
+    <div id="modal-morpion" class="modal-overlay">
+        <div class="modal-card">
+            <a href="#projets" class="close-btn">&times;</a>
+            
+            <h3>Code source : Morpion.py</h3>
+            <p style="margin-bottom: 1rem; text-align: center; font-size: 0.9rem; color: #666;">
+                Copiez ce code pour le tester chez vous !
+            </p>
+
+    <pre class="code-block">
+def afficher_plateau(plateau):
+    """Affiche le plateau de jeu de manière visuelle."""
+    print("\n")
+    print(f" {plateau[0]} | {plateau[1]} | {plateau[2]} ")
+    print("---+---+---")
+    print(f" {plateau[3]} | {plateau[4]} | {plateau[5]} ")
+    print("---+---+---")
+    print(f" {plateau[6]} | {plateau[7]} | {plateau[8]} ")
+    print("\n")
+
+def verifier_victoire(plateau, joueur):
+    """Vérifie si le joueur actuel a gagné."""
+    combinaisons = [
+        (0, 1, 2), (3, 4, 5), (6, 7, 8), # Lignes
+        (0, 3, 6), (1, 4, 7), (2, 5, 8), # Colonnes
+        (0, 4, 8), (2, 4, 6)             # Diagonales
+    ]
+    
+    for a, b, c in combinaisons:
+        if plateau[a] == plateau[b] == plateau[c] == joueur:
+            return True
+    return False
+
+def jouer():
+    """Fonction principale du jeu."""
+    plateau = [" " for _ in range(9)]
+    joueur_actuel = "X"
+    jeu_en_cours = True
+
+    print("Bienvenue dans le jeu du Morpion !")
+    print("1 | 2 | 3")
+    print("4 | 5 | 6")
+    print("7 | 8 | 9")
+
+    while jeu_en_cours:
+        afficher_plateau(plateau)
+        try:
+            choix = int(input(f"Joueur {joueur_actuel}, case (1-9) : ")) - 1
+            if 0 <= choix <= 8 and plateau[choix] == " ":
+                plateau[choix] = joueur_actuel
+                if verifier_victoire(plateau, joueur_actuel):
+                    afficher_plateau(plateau)
+                    print(f"Bravo ! {joueur_actuel} a gagné !")
+                    jeu_en_cours = False
+                elif " " not in plateau:
+                    print("Match nul !")
+                    jeu_en_cours = False
+                else:
+                    joueur_actuel = "O" if joueur_actuel == "X" else "X"
+            else:
+                print("Case invalide ou prise.")
+        except ValueError:
+            print("Entrez un chiffre valide.")
+
+if __name__ == "__main__":
+    jouer()
+    </pre>
+        </div>
+    </div>
+
+    <div id="modal-morpion-img" class="modal-overlay">
+        <div class="modal-card" style="text-align: center;">
+            <a href="#projets" class="close-btn">&times;</a>
+            <h3>Aperçu du jeu</h3>
+            <img src="images/Morpion-photo.png" alt="Capture du jeu Morpion pleine taille" class="modal-image-full">
+        </div>
+    </div>
+
+    <div id="modal-sae23-img" class="modal-overlay">
+        <div class="modal-card" style="text-align: center;">
+            <a href="#projets" class="close-btn">&times;</a>
+            <h3>Interface de la plateforme web</h3>
+            <img src="images/Acceuil-SAE23.png" alt="Interface de la plateforme SAE 23 pleine taille" class="modal-image-full">
+        </div>
+    </div>
+
+    <div id="modal-sae23-gallery" class="modal-overlay">
+        <div class="modal-card gallery-card">
+            <a href="#projets" class="close-btn">&times;</a>
+            <h3>Captures d'écran - Plateforme web</h3>
+            
+            <div class="css-slider-container">
+                <input type="radio" name="css-slide" id="s1" checked>
+                <input type="radio" name="css-slide" id="s2">
+                <input type="radio" name="css-slide" id="s3">
+                <input type="radio" name="css-slide" id="s4">
+
+                <div class="css-slides">
+                    <div class="css-slide"><img src="images/Acceuil-SAE23.png" alt="Accueil"></div>
+                    <div class="css-slide"><img src="images/admin-sae23.png" alt="Admin"></div>
+                    <div class="css-slide"><img src="images/dashboard-sae23.png" alt="Dashboard"></div>
+                    <div class="css-slide"><img src="images/formateur-sae23.png" alt="Formateur"></div>
+                </div>
+
+                <label for="s4" class="nav-arrow prev arrow-s1">&#10094;</label>
+                <label for="s1" class="nav-arrow prev arrow-s2">&#10094;</label>
+                <label for="s2" class="nav-arrow prev arrow-s3">&#10094;</label>
+                <label for="s3" class="nav-arrow prev arrow-s4">&#10094;</label>
+
+                <label for="s2" class="nav-arrow next arrow-s1">&#10095;</label>
+                <label for="s3" class="nav-arrow next arrow-s2">&#10095;</label>
+                <label for="s4" class="nav-arrow next arrow-s3">&#10095;</label>
+                <label for="s1" class="nav-arrow next arrow-s4">&#10095;</label>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal-sae15-img" class="modal-overlay">
+        <div class="modal-card" style="text-align: center;">
+            <a href="#projets" class="close-btn">&times;</a>
+            <h3>Aperçu du traitement de données (SAE 15)</h3>
+            <img src="images/sae15.png" alt="Capture du traitement SAE 15 pleine taille" class="modal-image-full">
+        </div>
+    </div>
+
+    <div id="modal-sae15-code" class="modal-overlay">
+        <div class="modal-card">
+            <a href="#projets" class="close-btn">&times;</a>
+            
+            <h3>Code source : code-projet-7.py</h3>
+            <p style="margin-bottom: 1rem; text-align: center; font-size: 0.9rem; color: #666;">
+                Extrait du script Python utilisant Pandas pour le traitement de l'emploi du temps.
+            </p>
+
+    <pre class="code-block">
+import numpy as np
+import pandas as pd
+
+# Chargement du fichier CSV
+donnees = pd.read_csv("calendrier-sae-15.csv", sep=";")
+donnees.columns = donnees.columns.str.strip()
+
+def calculer_duree(heure_debut, heure_fin):
+    deb = pd.to_datetime(heure_debut, format="%H:%M:%S", errors='coerce')
+    fin = pd.to_datetime(heure_fin, format="%H:%M:%S", errors='coerce')
+    if pd.isnull(deb) or pd.isnull(fin):
+        return 0
+    return (fin - deb).total_seconds() / 3600
+
+def extraire_type(ligne):
+    grp = str(ligne.get("Groupe", "")).upper()
+    if "COURS" in grp: return "CM"
+    elif "TD" in grp or "TDA" in grp or "TDB" in grp: return "TD"
+    elif "TP" in grp or "PT" in grp: return "TP"
+    else: return "Autre"
+
+def extraire_matiere(texte):
+    return str(texte).split(";")[0].strip().split()[0]
+
+def repartition_BUT1():
+    # On garde uniquement les lignes du BUT1
+    donnees_but1 = donnees[donnees["Description"].str.contains("1A", na=False)].copy()
+    
+    # Calcul des durées
+    donnees_but1["Duree"] = donnees_but1.apply(
+        lambda ligne: calculer_duree(ligne["HStart"], ligne["HEnd"]), axis=1)
+    
+    # Extraction du type et de la matière
+    donnees_but1["Type"] = donnees_but1.apply(extraire_type, axis=1)
+    donnees_but1["Matiere"] = donnees_but1["Summary"].apply(extraire_matiere)
+
+    # Application des coefficients selon le type
+    def ajuster_volume(ligne):
+        if ligne["Type"] == "CM": return ligne["Duree"]
+        elif ligne["Type"] == "TD": return ligne["Duree"] / 2
+        elif ligne["Type"] == "TP": return ligne["Duree"] / 4
+        else: return 0
+
+    donnees_but1["Volume_corrige"] = donnees_but1.apply(ajuster_volume, axis=1)
+    
+    # Tableau croisé final
+    tableau_final = donnees_but1.pivot_table(
+        values="Volume_corrige", index="Matiere", columns="Type",
+        aggfunc=np.sum, fill_value=0
+    )
+    return tableau_final
+    </pre>
+        </div>
+    </div>
+
+</body>
+</html>
